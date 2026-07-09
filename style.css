@@ -685,3 +685,28 @@ h3 {
     flex-direction: column;
   }
 }
+
+/* Power BI Sales Dashboard Featured Project */
+
+.project-card.powerbi-featured {
+  grid-column: 1 / -1;
+  border-color: rgba(56, 189, 248, 0.35);
+  background:
+    linear-gradient(135deg, rgba(56, 189, 248, 0.14), transparent 45%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.035)),
+    rgba(16, 24, 39, 0.86);
+}
+
+.project-card.powerbi-featured h3 {
+  font-size: 1.6rem;
+}
+
+.project-card.powerbi-featured ul {
+  margin-top: 18px;
+  margin-bottom: 20px;
+}
+
+.project-card.powerbi-featured a {
+  color: var(--accent-2);
+  font-weight: 850;
+}
